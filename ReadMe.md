@@ -53,17 +53,25 @@ class Receiver extends PureComponent {
 }
 
 /*
- * SENDER COMPONENT
+ * SENDER CLASS
  */
-const Sender = (props) => (
-    <TouchableHighlight
+
+class Sender extends PureComponent {
+   
+    render() {
+        return 
+        <TouchableHighlight
         onPress={() => {
             EventRegister.emit('myDemoEvent', 'it works!!!')
-        })
-    ><Text>Send Event</Text></TouchableHighlight>
-)
+        })>
+        <Text>Send Event</Text>
+        </TouchableHighlight>
+    }
+}
 
-
+/*
+ * METHOD AND RESULT
+ */
 | static method       | return value      | description                                                    |
 | :------------------ | :---------------- | :------------------------------------------------------------- |
 | addEventListener    | string \| boolean | return value is the id of the event listener or false on error |

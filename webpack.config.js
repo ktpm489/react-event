@@ -1,14 +1,14 @@
+const path = require('path');
+const { NODE_ENV, FILE_NAME } = process.env;
+const filename = `${FILE_NAME}${NODE_ENV === 'production' ? '.min' : ''}.js`;
 module.exports = {
-    entry: './index.js',
+    mode: NODE_ENV || 'development',
+    entry: [
+        './src/index.js',
+    ],
     output: {
-        filename: './dist/bundle.js'
+        path: path.join(__dirname, 'dist'),
+        filename,
+        libraryTarget: 'umd',
     },
-    module: {
-        loaders: [
-            {
-                test: /\.js$/,
-                exclude: /node_modules/
-            }
-        ]
-    }
 };
