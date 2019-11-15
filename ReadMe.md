@@ -67,10 +67,10 @@ const Sender = (props) => (
 | static method       | return value      | description                                                    |
 | :------------------ | :---------------- | :------------------------------------------------------------- |
 | addEventListener    | string \| boolean | return value is the id of the event listener or false on error |
-| removeEventListener | boolean           | true on success or otherwise false                                |
-| removeAllListeners  | boolean           | true on success or otherwise false                                |
+| removeEventListener | boolean           | true on success or otherwise false                             |
+| removeAllListeners  | boolean           | true on success or otherwise false                             |
 | emitEvent           | void              | no return value                                                |
-| on                  | string \| boolean | shortsyntax for addEventListener                             |
-| rm                  | boolean           | shortsyntax for removeEventListener                          |
-| rmAll               | boolean           | shortsyntax for removeAllListeners                           |
-| emit                | void              | shortsyntax * for emitEvent                                    |
+| on                  | string \| boolean | shortsyntax for addEventListener                               |
+| rm                  | boolean           | shortsyntax for removeEventListener                            |
+| rmAll               | boolean           | shortsyntax for removeAllListeners                             |
+| emit                | void              | shortsyntax for emitEvent                                      |
