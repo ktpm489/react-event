@@ -1,0 +1,14 @@
+{
+  "name": "react-event",
+  "version": "1.0.0",
+  "description": "This is a plugin to add  global event listener for react apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "type-detect": "^4.0.8"
+  }
+}
