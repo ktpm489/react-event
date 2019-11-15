@@ -1,6 +1,6 @@
 {
   "name": "react-event-listeners",
-  "version": "1.2.1",
+  "version": "1.2.3",
   "description": "This is a plugin to add  global event listener for react apps",
   "main": "lib/index.js",
   "scripts": {
@@ -36,7 +36,10 @@
   "keywords": [
     "type",
     "typeof",
-    "types"
+    "types",
+    "react-event",
+    "react-event-listener",
+    "react-listen"
   ],
   "devDependencies": {
     "@babel/cli": "^7.7.0",
