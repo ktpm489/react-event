@@ -8,13 +8,13 @@ In some very specific cases it can be charming to have a simple global event lis
 ## Installation
 
 ```
-npm install --save react-event
+npm install --save react-event-listeners
 ```
 
 or
 
 ```
-yarn add react-event
+yarn add react-event-listeners
 ```
 
 ## Usage Example
@@ -22,7 +22,7 @@ yarn add react-event
 *Hint: The event listeners also work across different files. You only have to import the ```EventRegister``` in every file you need to send or receive your events.*
 
 ```javascript
-import { EventRegister } from 'react-event'
+import { EventRegister } from 'react-event-listeners'
 
 /*
  * RECEIVER COMPONENT
