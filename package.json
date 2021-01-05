@@ -20,7 +20,7 @@
     "type-detect": "^4.0.8",
     "@babel/plugin-proposal-class-properties": "^7.2.3",
     "@babel/preset-react": "^7.0.0",
-    "axios": "^0.18",
+    "axios": "^0.21",
     "babel-preset-react": "^6.23.0",
     "bootstrap": "^4.0.0",
     "jquery": "^3.2",
